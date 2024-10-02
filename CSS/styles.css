@@ -1,0 +1,96 @@
+html {
+  text-align: center;
+  background: #ffffff;
+  color: #1c1c1c;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: rgb(2, 91, 105);
+}
+
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 20%),
+    rgb(0 0 0 / 20%) 30%,
+    rgb(0 0 0 / 0%)
+  );
+}
+
+.styled:hover {
+  background-color: orange;
+}
+
+/* Flexbox container for logo and menu */
+.nav {
+  display: flex;
+  justify-content: space-between; /* Distribute logo and menu */
+  align-items: center; /* Vertically align the items */
+  padding: 10px 20px;
+  background-color: #f8f8f8; /* Change the background color of the nav bar */
+}
+
+.menu {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Flexbox to align menu items horizontally */
+}
+
+.menu li {
+  margin: 0 15px; /* Add space between the items */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-size: 1.2rem;
+  padding: 10px 15px; /* Add padding to ensure there's space around the text */
+  transition: all 0.3s ease; /* Smooth transition when hovering */
+}
+
+.menu a:hover {
+  color: rgb(255, 255, 255); /* Change text color to white */
+  background-color: #1c1c1c; /* Dark background on hover */
+  border-radius: 50px; /* Make the pill shape larger */
+  padding: 15px 25px; /* Increase padding for a larger pill shape */
+  border: 2px solid #1c1c1c; /* Optional: Add a border to the pill */
+}
+
+.homePageImage {
+  justify-content: left;
+  border-radius: 8%; 
+  height: 400px;
+}
+
+.GoogleForm {
+  height: 1500px;
+}
+
+/* Adjust logo size */
+.payLogo {
+  width: 150px;
+  height: 150px;
+}
+
+.footer {
+  text-decoration: none;
+  color:#1c1c1c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
